@@ -1,0 +1,197 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient()(to top,rgba(0,0, 0, 0.5)rgba(0,0, 0, 0.5));
+    background-image: url("/image/running.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    text-align: left;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color:black;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+    text-align: justify;
+
+}
+.list{
+    width: 400px;
+    float: left;
+    height: 75px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+nav ul li button{
+    font-size: 20px;
+    color:black;
+    outline: none;
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Times New Roman';
+}
+nav ul li a button:hover{
+    color:rgba(255, 255, 0, 0.692);
+}
+nav ul li a{
+    color: rgba(255, 255, 0, 0.584);
+}
+a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 20px;
+}
+.form-box
+{
+    width: 400px;;
+	height:480px;
+    align-items: center;
+	position:relative;
+	margin:50px auto;
+	background:rgba(0,0,0,0.3);
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #F3C693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:#777;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#register
+{
+	left:450px;
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}

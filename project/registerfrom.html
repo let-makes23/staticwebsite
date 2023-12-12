@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style1.css" type="text/css">
+</head>
+<body class="p1">
+    <div class="form"><h2>RegistrationFrom</h2>
+    <form action="/registerfrom.html" method="get">
+        <div class="name">
+            <label for="Name">Name</label>
+            <input type="text" class="firstName" id="firstName" placeholder="FirstName" required>
+            <input type="text" class="lastname" id="lastname" placeholder="LastName" required>
+            <label for="date of birth"> Date of Birth</label>
+            <input type="date" class="date of birth" id="date of birth" required><br><br>
+         </div>
+         <div >
+            <label for="Email">Email</label>
+            <input type="text" class="Email" id="Email">
+            <label> Phone : </label>  
+                <input type="text" name="country code"  value="+91" size="2">   
+                <input type="text" name="phone" size="10"/><br><br>
+         </div>
+         <div>
+            <label for="address">Address</label>
+            <textarea cols="50" rows="1" value="address" class="address"> </textarea><br><br><br>
+            <label for="street address line2">Street Address line2</label>
+                <textarea name="street address line2" id="street address line2" cols="40" rows="1"></textarea><br><br><br>
+             </div>
+             <div>
+             <label for="city">City:</label>
+             <input type="text" name="city" id="city" placeholder="City">
+             <label for="district">District:</label>
+             <input type="text" name="district" id="district" placeholder="District">
+             <br>
+             <br>
+             
+         </div> 
+         <div class="radio">
+            <label for="">Gender</label>
+            <input type="radio" name="gender" id="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <br>
+            <br>
+        </div>
+        <div>
+            <p>The athlete have any chronic medical illnesses such as diabetes, asthma (exercise asthma), kidney problems, etc.?
+            </p>
+            <input type="radio" name="gender" id="yes">
+            <label for="yes">yes</label>
+            <input type="radio" name="gender" id="no">
+            <label for="no">no</label> <br><br>
+         </div>
+         <div>
+            <p>The athlete have any allergies?</p>
+            <input type="radio" name="gender" id="yes">
+            <label for="yes">yes</label>
+            <input type="radio" name="gender" id="no">
+            <label for="no">no</label><br><br>
+         </div>
+         <div>
+            <label for="file">Please upload medical health document(s) (if applicable)
+            </label>
+            <br><br>
+            <input type="file" name="choose file" id="choose file" size="50" row="30">
+        </div>
+        <div><p>I, the athlete, agree with the following statements:</p>
+            <input type="checkbox" class="option" id="option" >
+            <label for="">I am physically able to take part in the activities</label><br>
+            <input type="checkbox" class="option" id="option">
+            <label for="">I know there is a risk of injury. I understand the risk of continuing to play sports with or after a concussion or other injury. I may have to get medical care if I have a suspected concussion or other injury. I also may have to wait 7 days or more and get permission from a doctor before I start playing sports again.</label><br>
+            <input type="checkbox">
+            <label for="">I will respect and obey all laws and the athlete's Code of Conduct.</label><br>
+            </div>
+            <div><button type="submit">submit</button></div>
+            
+        </div> 
+        
+    </form>
+</body>
+</html>
